@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Pager
 Summary:	%{_pearname} - Renderer driver using PEAR::Pager
-Summary(pl):	%{_pearname} - sterownik renderera korzystaj±cy z PEAR::Pager
+Summary(pl.UTF-8):   %{_pearname} - sterownik renderera korzystajÄ…cy z PEAR::Pager
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
@@ -27,7 +27,7 @@ This is a Renderer driver for Structures_DataGrid using PEAR::Pager.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza sterownik renderera do PEAR::Pager dla
 Structures_DataGrid.
 
