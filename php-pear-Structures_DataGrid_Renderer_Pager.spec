@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Renderer driver using PEAR::Pager
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera korzystający z PEAR::Pager
 Name:		php-pear-%{_pearname}
-Version:	0.1.2
+Version:	0.1.3
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8c9950ffce7cd96d26d96e51c2232daa
+# Source0-md5:	682893c10ae5c9ac6170fb96989a3ca2
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_Pager/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
