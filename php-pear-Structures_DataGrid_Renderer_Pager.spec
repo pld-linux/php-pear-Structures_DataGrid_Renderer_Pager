@@ -1,23 +1,21 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Structures
-%define		_subclass	DataGrid_Renderer_Pager
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Pager
 Summary:	%{_pearname} - Renderer driver using PEAR::Pager
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera korzystający z PEAR::Pager
 Name:		php-pear-%{_pearname}
 Version:	0.1.3
-Release:	2
+Release:	3
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	682893c10ae5c9ac6170fb96989a3ca2
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_Pager/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.6.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-PEAR-core >= 1:1.4.9
-Requires:	php-pear-Pager >= 2.4.0
+Requires:	php-pear-Pager >= 2.4.4
 Requires:	php-pear-Structures_DataGrid >= 0.7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
